@@ -146,3 +146,48 @@ $ docker-compose run --rm web pip-compile requirements/requirements.in
 - [Configuring Facebook](http://www.sarahhagstrom.com/2013/09/the-missing-django-allauth-tutorial/#Create_and_configure_a_Facebook_app)
 - [Configuring Github](https://wsvincent.com/django-allauth-tutorial/)
 - `django-allauth` supports [many, many other providers in the official docs](https://django-allauth.readthedocs.io/en/latest/providers.html) -->
+
+# DjangoX - Lab 29
+
+## Author: Brandon Mizutani
+
+Version: 1.0.0 (PR URL: [PR URL]()
+
+## Overview
+
+This lab assignment required us create a website using DjangoX as a template.
+
+## Getting Started
+
+### Lab 28
+
+We had to create a project that followed the same steps as the previous lab, only this time we had to used the DjangoX template. We had to:
+
+- Name your repo whatever you like.
+- Create a Django app of your choosing.
+- The specific functionality of the site is up to you but should have a model that makes use of get_user_model
+
+We also had to:
+
+- Clone your newly created repo.
+- Create a virtual environment.
+- Add dependencies (see Implemetation Notes)
+- Remove unnecessary configuration files (see Implementation Notes)
+
+## Architecture
+
+Python, DjangoX, Models, get_user_model, superuser, CRUD, CSS, static.
+
+## Change Log
+
+03-05-22 -- Pages render as expected and assignment is complete.
+
+## Credit and Collaborations
+
+Eddie Ponce
+
+Alex Payne
+
+Connor Boyce
+
+Roger Huba
