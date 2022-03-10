@@ -1,0 +1,11 @@
+{% extends '_base.html' %}
+
+{% block content %}
+
+<h2>Details about {{ restaurant.name }}</h2>
+<h2>Owner: {{ restaurant.foodie }}</h2>
+<p>{{ restaurant.description }}</p>
+<a href="{% url 'restaurants_update' restaurant.pk %}">+ Update Restaurant</a>
+<a href="{% url 'restaurants_delete' restaurant.pk %}">+ Delete Restaurant</a>
+
+{% endblock content %}
