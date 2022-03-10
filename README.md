@@ -151,7 +151,7 @@ $ docker-compose run --rm web pip-compile requirements/requirements.in
 
 ## Author: Brandon Mizutani
 
-Version: 1.0.0 (PR URL: [PR URL]()
+Version: 1.0.0 (PR URL: [PR URL](https://github.com/bran2miz/django-x-restaurants/pull/1)
 
 ## Overview
 
