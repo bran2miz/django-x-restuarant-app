@@ -257,6 +257,7 @@ MIDDLEWARE = [
 # ------------------------------------------------------------------------------
 ROOT_URLCONF = "config.urls"
 WSGI_APPLICATION = "config.wsgi.application"
+CSRF_TRUSTED_ORIGINS = ['https://django-x-restuarant-app.onrender.com']
 
 # TEMPLATES
 # ------------------------------------------------------------------------------
