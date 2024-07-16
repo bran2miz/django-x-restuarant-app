@@ -6,6 +6,8 @@ services:
     plan: free
     buildCommand: pip install -r requirements.txt
     startCommand: python manage.py runserver 0.0.0.0:$PORT
+    predeploy:
+      - python manage.py migrate
     envVars:
       - key: SECRET_KEY
         value: 43)%4yx)aa@a=+_c(fn&kf3g29xax+=+a&key9i=!98zyim=8j
