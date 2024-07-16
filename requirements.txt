@@ -1,25 +1,9 @@
-Django==3.1.4
-django-allauth==0.43.0
-django-crispy-forms==1.10.0
-django-debug-toolbar==3.2
-whitenoise==5.2.0
-asgiref @ file:///Users/wesleymizutani/Library/Caches/pypoetry/artifacts/97/19/96/6fe4e79be71b46c24f8ad1d77086edd058efc60976b764fcac45c2e160/asgiref-3.5.0-py3-none-any.whl
-certifi @ file:///Users/wesleymizutani/Library/Caches/pypoetry/artifacts/71/9a/ba/a51b34ce9aacf9ac5dbb90d7c7335877522ee188189d9a521ee1a9c411/certifi-2021.10.8-py2.py3-none-any.whl
-cffi @ file:///Users/wesleymizutani/Library/Caches/pypoetry/artifacts/64/59/35/9cc31c7226ca68e026fefff4b787b447689301714eecc03b78668a48ae/cffi-1.15.0-cp39-cp39-macosx_10_9_x86_64.whl
-charset-normalizer @ file:///Users/wesleymizutani/Library/Caches/pypoetry/artifacts/2b/25/ee/fa64b49cb44c9c392acf26e69ee8314d3b386932de86a9945f4ad2e633/charset_normalizer-2.0.12-py3-none-any.whl
-cryptography @ file:///Users/wesleymizutani/Library/Caches/pypoetry/artifacts/05/1b/5b/e4612906b9aff82cae9e115c94cc6d664c45fb5903950dbc3af51ae438/cryptography-36.0.1-cp36-abi3-macosx_10_10_x86_64.whl
-defusedxml @ file:///Users/wesleymizutani/Library/Caches/pypoetry/artifacts/2b/69/07/7b13f7eaf3a4d7af737dcebe24d3d17b1c2a2f457fbddf746f5642bc43/defusedxml-0.7.1-py2.py3-none-any.whl
-Django @ file:///Users/wesleymizutani/Library/Caches/pypoetry/artifacts/25/a5/75/77de74fd138a825e8fa0a6e68976cddde298fd9b70d5b3d854e8ea99a3/Django-4.0.3-py3-none-any.whl
-django-allauth==0.49.0
-django-crispy-forms @ file:///Users/wesleymizutani/Library/Caches/pypoetry/artifacts/32/32/ab/908c3fa4eda584e7af5c1d2877afaee8debd9f4a5916bf560cf705e9e5/django_crispy_forms-1.14.0-py3-none-any.whl
-django-debug-toolbar @ file:///Users/wesleymizutani/Library/Caches/pypoetry/artifacts/58/74/61/f227b9dce16c03b515318bfdeadae6fcd22107ed69534375ef40a05f67/django_debug_toolbar-3.2.4-py3-none-any.whl
-idna @ file:///Users/wesleymizutani/Library/Caches/pypoetry/artifacts/d5/04/80/9c17fd3240a37d12ff2ef042b0306aeb1abd2d8b95f150fd60be938352/idna-3.3-py3-none-any.whl
-oauthlib @ file:///Users/wesleymizutani/Library/Caches/pypoetry/artifacts/c6/3b/22/7300b1ccd5ea2dcd9b482a293df3be32bb19012ce24601d545a3cb94b9/oauthlib-3.2.0-py3-none-any.whl
-pycparser @ file:///Users/wesleymizutani/Library/Caches/pypoetry/artifacts/fb/06/dd/b5671b47dd0597663bc05d60d324bb315a8cef56f3179b8f9067f88e50/pycparser-2.21-py2.py3-none-any.whl
-PyJWT @ file:///Users/wesleymizutani/Library/Caches/pypoetry/artifacts/6d/a2/4c/7218503a28c8d672d4374161e6e47a71ffc11c0046a535d2ff709af4ca/PyJWT-2.3.0-py3-none-any.whl
-python3-openid @ file:///Users/wesleymizutani/Library/Caches/pypoetry/artifacts/1f/82/2a/9ee77fff1d166e4fb92a4e474625188183ed34c63cf73820cd4c41120a/python3_openid-3.2.0-py3-none-any.whl
-requests @ file:///Users/wesleymizutani/Library/Caches/pypoetry/artifacts/ff/f3/bc/a6781f93c2f9488431db494169bb514a083a1d77f3c325a277d8699398/requests-2.27.1-py2.py3-none-any.whl
-requests-oauthlib @ file:///Users/wesleymizutani/Library/Caches/pypoetry/artifacts/33/73/31/43c706dd726dc855100e4221ec8d5a1b0a0e1587af3af00c76d1da9134/requests_oauthlib-1.3.1-py2.py3-none-any.whl
-sqlparse @ file:///Users/wesleymizutani/Library/Caches/pypoetry/artifacts/ea/fd/ba/117a876397913faee210ef8bac93829e22ad9232662e656971383c0718/sqlparse-0.4.2-py3-none-any.whl
-urllib3 @ file:///Users/wesleymizutani/Library/Caches/pypoetry/artifacts/08/31/b3/80f34f2cc3040aa919aadae0d0960e1a2e5436c5eec2f8c81f9b4b7f45/urllib3-1.26.8-py2.py3-none-any.whl
-whitenoise @ file:///Users/wesleymizutani/Library/Caches/pypoetry/artifacts/b5/ec/a6/ae68887b70a09fca6cbced3337803b7b411dff1d5693853c603846536b/whitenoise-6.0.0-py3-none-any.whl
+asgiref==3.8.1
+Django==5.0.7
+django-allauth==0.63.6
+django-crispy-forms==2.2
+django-debug-toolbar==4.4.6
+django-environ==0.11.2
+sqlparse==0.5.1
+typing_extensions==4.12.2
+whitenoise==6.7.0
