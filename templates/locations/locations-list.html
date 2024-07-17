@@ -1,0 +1,14 @@
+{% extends '_base.html' %}
+
+{% block content %}
+
+<a href="{% url 'locations_create' %}">+ New Location</a>
+<ul>
+  {% for location in object_list %}
+  <li>
+    <a href="{% url 'locations_detail' location.pk %}">{{ location.location }}</a>
+  </li>
+  {% endfor %}
+</ul>
+
+{% endblock content %}

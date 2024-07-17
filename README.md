@@ -159,9 +159,7 @@ This lab assignment required us create a website using DjangoX as a template.
 
 ## Getting Started
 
-### Lab 28
-
-We had to create a project that followed the same steps as the previous lab, only this time we had to used the DjangoX template. We had to:
+### RESTyrant
 
 - Name your repo whatever you like.
 - Create a Django app of your choosing.
@@ -174,6 +172,16 @@ We also had to:
 - Add dependencies (see Implemetation Notes)
 - Remove unnecessary configuration files (see Implementation Notes)
 
+Building off on a previous project, I added a new API route for locations. Most challenging part was to use EC2 for this project. Main issue stemmed from VPC, specifically the Network ACL's needed to allow all SSH, HTTP, and HTTPS to be accessed. There are ALOT of steps, but to run it locally require a few steps.
+
+IP address: 3.101.75.94 and whatever route you so choose (/admin, /locations, /restaurants)
+
+You need the .pem file and then grab the correct route within your Downloads folder: `ssh -i /Users/brandonmizutani/Downloads/django-x-restaurants-2.pem ubuntu@3.101.75.94`
+
+`sudo journalctl -u django-x-restuarant-app -f` running this command while testing the IP address and the correct route allows me to see my changes.
+
+
+
 ## Architecture
 
 Python, DjangoX, Models, get_user_model, superuser, CRUD, CSS, static.
@@ -181,6 +189,8 @@ Python, DjangoX, Models, get_user_model, superuser, CRUD, CSS, static.
 ## Change Log
 
 03-05-22 -- Pages render as expected and assignment is complete.
+
+07-17-24 -- Added a render.yaml folder for render.com, added a new API route for locations. 
 
 ## Credit and Collaborations
 
@@ -191,3 +201,7 @@ Alex Payne
 Connor Boyce
 
 Roger Huba
+
+ChatGPT
+
+AWS documentation

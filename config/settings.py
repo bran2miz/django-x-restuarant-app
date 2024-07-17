@@ -236,6 +236,7 @@ INSTALLED_APPS = [
     'accounts',
     'pages',
     'restaurants',
+    'locations'
 ]
 
 # MIDDLEWARE

@@ -1,0 +1,11 @@
+{% extends '_base.html' %}
+
+{% block content %}
+
+<h2>Details about {{ location.location }}</h2>
+<h2>Owner: {{ location.traveler }}</h2>
+<p>{{ location.description }}</p>
+<a href="{% url 'locations_update' location.pk %}">+ Update Location</a>
+<a href="{% url 'locations_delete' location.pk %}">+ Delete Location</a>
+
+{% endblock content %}
