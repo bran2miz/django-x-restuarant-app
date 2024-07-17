@@ -6,7 +6,12 @@ from django.views.generic import (
     DeleteView,
 )
 from django.urls import reverse_lazy
+from django.http import JsonResponse
 from .models import Location
+
+def locations_list(request):
+    locations = list(Location.objects.values())
+    return JsonResponse(locations, safe=False)
 
 class LocationsListView(ListView):
     template_name = "locations/locations-list.html"

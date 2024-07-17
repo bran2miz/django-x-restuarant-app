@@ -7,7 +7,11 @@ from django.views.generic import (
 )
 from django.urls import reverse_lazy
 from .models import Restaurant
+from django.http import JsonResponse
 
+def restaurants_list(request):
+    restaurants = list(Restaurant.objects.values())
+    return JsonResponse(restaurants, safe=False)
 
 class RestaurantsListView(ListView):
     template_name = "restaurants/restaurants-list.html"
