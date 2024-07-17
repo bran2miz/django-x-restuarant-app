@@ -211,7 +211,7 @@ DEBUG = env.bool('DEBUG', False)
 
 # ALLOWED HOSTS
 # ------------------------------------------------------------------------------
-ALLOWED_HOSTS = env.list('DJANGO_ALLOWED_HOSTS', default=["localhost", "0.0.0.0", "127.0.0.1", 'django-x-restuarant-app.onrender.com'])
+ALLOWED_HOSTS = env.list('DJANGO_ALLOWED_HOSTS', default=["localhost", "0.0.0.0", "127.0.0.1", 'django-x-restuarant-app.onrender.com', "ec2-3-101-75-94.us-west-1.compute.amazonaws.com", "3.101.75.94"])
 
 # APPS
 # ------------------------------------------------------------------------------
