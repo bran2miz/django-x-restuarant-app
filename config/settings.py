@@ -212,6 +212,7 @@ DEBUG = env.bool('DEBUG', False)
 # ALLOWED HOSTS
 # ------------------------------------------------------------------------------
 ALLOWED_HOSTS = env.list('DJANGO_ALLOWED_HOSTS', default=["localhost", "0.0.0.0",'3.101.75.94', 'ec2-3-101-75-94.us-west-1.compute.amazonaws.com', "127.0.0.1", 'django-x-restuarant-app.onrender.com'])
+CORS_ALLOW_ALL_ORIGINS = True
 
 # APPS
 # ------------------------------------------------------------------------------
@@ -224,6 +225,7 @@ INSTALLED_APPS = [
     'whitenoise.runserver_nostatic',
     'django.contrib.staticfiles',
     'django.contrib.sites',
+    'corsheaders',
 
     # Third-party
     'allauth',
@@ -252,6 +254,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'allauth.account.middleware.AccountMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
 ]
 
 # URLS
