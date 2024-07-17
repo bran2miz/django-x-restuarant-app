@@ -73,7 +73,7 @@ MIDDLEWARE = [
 # ------------------------------------------------------------------------------
 ROOT_URLCONF = "config.urls"
 WSGI_APPLICATION = "config.wsgi.application"
-CSRF_TRUSTED_ORIGINS = ['https://django-x-restuarant-app.onrender.com']
+CSRF_TRUSTED_ORIGINS = ['https://django-x-restuarant-app.onrender.com', 'http://localhost:5173','http://restyrant-app.s3-website-us-west-1.amazonaws.com/']
 
 # TEMPLATES
 # ------------------------------------------------------------------------------
